@@ -1,0 +1,32 @@
+@media only screen and (max-width:600px) {
+
+    main section .row {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        width: 100%;
+    }
+    
+    #fuel {
+        width: 100%;
+    }
+    
+    #water {
+        width: 100%;
+    }
+    
+    #food {
+        width: 100%;
+    }
+    
+    #temp {
+        width: 100%;
+    }
+
+    section{
+	width: 100%;
+	display:flex; 
+	justify-content:space-around;
+	flex-wrap: wrap;
+}
+}

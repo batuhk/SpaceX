@@ -1,10 +1,63 @@
+
 <!DOCTYPE html>
-<html>
-<head>
-	<title>SpaceX Dashboard</title>
-	<link rel="stylesheet" type="text/css" href="laptop.css">
-</head>
-<body>
-	<header><img src="images/headimg.png"></header>
-</body>
+<html lang="en">
+	<head>
+		<title>SpaceX Dashboard</title>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="initial-scale=1.0">
+        
+        <link rel="stylesheet" type="text/css" href="css/main.css">
+        <link rel="stylesheet" type="text/css" href="css/phone.css">
+        <link rel="stylesheet" type="text/css" href="css/tablet.css">
+        <link rel="stylesheet" type="text/css" href="css/laptop.css">
+        <link rel="stylesheet" type="text/css" href="css/desktop.css">
+        
+        <script src="scripts/script.js"></script>
+
+	</head>
+	<body>
+		<header>
+            <h1>SpaceX</h1>
+        </header>
+
+        <main>
+        	<section>
+        		<div class="row">
+        			<article id="fuel">
+        				<h2>Fuel Levels</h2>
+        				<main>
+        					<div id="chartContainer1" style="height: 300px; width: 100%;"></div>
+        				</main>
+        			</article>
+        		</div>
+        		<div class="row">
+        			<article id="water">
+        				<h2>Water Tank Data</h2>
+        				<main>
+        					<div id="chartContainer2" style="height: 300px; width: 100%;"></div>
+        				</main>
+        			</article>
+        		</div>
+        		<div class="row">
+        			<article id="food">
+        				<h2>Food Reserve</h2>
+        				<main>
+        					<div id="chartContainer3" style="height: 300px; width: 100%;"></div>
+        				</main>
+        			</article>
+        		</div>
+        		<div class="row">
+        			<article id="temp">
+        				<h2>Engine Temperature</h2>
+        				<main>
+        					<div id="chartContainer4" style="height: 300px; width: 100%;"></div>
+        				</main>
+        			</article>
+        		</div>
+        	</section>
+        </main>
+
+	</body>
+	<script src="https://canvasjs.com/assets/script/canvasjs.min.js"></script>
+	<script src="https://canvasjs.com/assets/script/jquery-1.11.1.min.js"></script>
 </html>
